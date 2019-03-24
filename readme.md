@@ -8,9 +8,9 @@ The base image is alpine which is a lightweight version of linux
 
 Execute by entering:
 docker build --tag=api .
-// This command grabs the base image, updates dependencies, copies files, builds the project, and exposes port 4567
+ -  This command grabs the base image, updates dependencies, copies files, builds the project, and exposes port 4567
 docker run -p 4567:4567 api 
-// This command runs the image and links host port with container port
+ - This command runs the image and links host port with container port
 open browser to localhost:4567/hello to test app
 
 
